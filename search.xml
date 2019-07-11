@@ -8,7 +8,7 @@
       <link href="/2019/07/11/ireport/"/>
       <url>/2019/07/11/ireport/</url>
       
-        <content type="html"><![CDATA[<h3 id="iReport的使用"><a href="#iReport的使用" class="headerlink" title="iReport的使用"></a>iReport的使用</h3><h4 id="iReport与JasperReport简介"><a href="#iReport与JasperReport简介" class="headerlink" title="iReport与JasperReport简介"></a>iReport与JasperReport简介</h4><h5 id="1-1-简介"><a href="#1-1-简介" class="headerlink" title="1.1  简介"></a>1.1  简介</h5><blockquote><p>JasperReport是报表的引擎部分，界面设计是用iReport</p><p>JasperReport是一个报表制作程序，用户按照它制定的规则编写一个XML文件，然后得到用户需要输出的格式文件。它支持输出的文件格式包括PDF，HTML，XML，XLS，CSV等</p></blockquote><h5 id="1-2"><a href="#1-2" class="headerlink" title="1.2"></a>1.2</h5><pre class=" language-java"><code class="language-java"></code></pre><p><img src="assets/alipay-1562833353242.png" alt="alipay"></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="iReport的使用"><a href="#iReport的使用" class="headerlink" title="iReport的使用"></a>iReport的使用</h3><h4 id="iReport与JasperReport简介"><a href="#iReport与JasperReport简介" class="headerlink" title="iReport与JasperReport简介"></a>iReport与JasperReport简介</h4><h5 id="1-1-简介"><a href="#1-1-简介" class="headerlink" title="1.1  简介"></a>1.1  简介</h5><blockquote><p>JasperReport是报表的引擎部分，界面设计是用iReport</p><p>JasperReport是一个报表制作程序，用户按照它制定的规则编写一个XML文件，然后得到用户需要输出的格式文件。它支持输出的文件格式包括PDF，HTML，XML，XLS，CSV等</p></blockquote>]]></content>
       
       
       <categories>
