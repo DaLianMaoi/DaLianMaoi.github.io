@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>小宇的BLOG</title>
   
-  
+  <subtitle>一个来自IT结的小学生</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dalianmaoi.github.io/"/>
@@ -10,7 +10,7 @@
   <id>http://dalianmaoi.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>小宇</name>
     
   </author>
   
