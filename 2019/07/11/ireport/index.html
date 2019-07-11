@@ -4,8 +4,10 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="小宇的BLOG">
-    <meta name="description" content="小宇的BLOG">
+    <meta name="keywords" content="iReport, 小宇的BLOG">
+    <meta name="description" content="iReport的使用iReport与JasperReport简介1.1  简介
+JasperReport是报表的引擎部分，界面设计是用iReport
+JasperReport是一个报表制作程序，用户按照它制定的规则编写一个XML文件，然后得">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +15,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>小宇的BLOG</title>
+    <title>iReport | 小宇的BLOG</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -272,242 +274,240 @@
     </nav>
 </header>
 
-<style type="text/css">
-    /* don't remove. */
-    .index-cover {
-        height: 100vh;
-    }
-</style>
 
-<div class="bg-cover index-cover about-cover" style="background-image: url('/medias/cover.jpg')">
+
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container">
         <div class="row">
-            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+            <div class="col s12 m12 l12">
                 <div class="brand">
-                    <div class="title center-align">
-                    
-                        一个来自IT界的小学生
-                    
-                    </div>
-
-                    <div class="description center-align">
-                    
-                        与你分享，快乐加倍
-                    
+                    <div class="description center-align post-title">
+                        iReport
                     </div>
                 </div>
             </div>
         </div>
-        
-        <div class="cover-btns">
-            <a href="#recommend-sections" class="waves-effect waves-light btn">
-                <i class="fa fa-angle-double-down"></i>继续阅读
-            </a>
-
-            
-            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light btn" target="_blank">
-                <i class="fa fa-github-alt"></i>Github
-            </a>
-            
-        </div>
-        <div class="cover-social-link">
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1219079492" class="tooltipped" data-tooltip="QQ联系我: 1219079492" data-position="top" data-delay="50">
-        <i class="fa fa-qq"></i>
-    </a>
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fa fa-rss"></i>
-    </a>
-</div>
-        
     </div>
 </div>
 
-<script>
-// Dynamically switch banner pictures every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
-</script>
 
-<main class="content">
+
+<main class="container content">
 
     
-    <div class="index-card">
-        <div class="container ">
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/iReport/" target="_blank">
+                                <span class="chip bg-color">iReport</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/日常学习/" class="post-category" target="_blank">
+                                日常学习
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2019-07-11
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        88
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        1 分
+                    </div>
+                    
+                
+				
+				
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h3 id="iReport的使用"><a href="#iReport的使用" class="headerlink" title="iReport的使用"></a>iReport的使用</h3><h4 id="iReport与JasperReport简介"><a href="#iReport与JasperReport简介" class="headerlink" title="iReport与JasperReport简介"></a>iReport与JasperReport简介</h4><h5 id="1-1-简介"><a href="#1-1-简介" class="headerlink" title="1.1  简介"></a>1.1  简介</h5><blockquote>
+<p>JasperReport是报表的引擎部分，界面设计是用iReport</p>
+<p>JasperReport是一个报表制作程序，用户按照它制定的规则编写一个XML文件，然后得到用户需要输出的格式文件。它支持输出的文件格式包括PDF，HTML，XML，XLS，CSV等</p>
+</blockquote>
+<h5 id="1-2"><a href="#1-2" class="headerlink" title="1.2"></a>1.2</h5><pre class=" language-java"><code class="language-java"></code></pre>
+<p><img src="assets/alipay-1562833353242.png" alt="alipay"></p>
+
+            </div>
+            <hr/>
+
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
+                    <a href="http://dalianmaoi.github.io" class="b-link-green">小宇的BLOG</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2019/07/11/ireport/" class="b-link-green">iReport</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <div class="card-content">
-                    
-                        <div class="dream">
-    
-    <div class="title center-align">
-        <i class="fa fa-lightbulb-o"></i>&nbsp;&nbsp;Dream
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            IT
-        </div>
-    </div>
-</div>
-                    
-
-                    
+                <a href="/2019/07/11/ireport/">
+                    <div class="card-image">
                         
-
-<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<div class="music-player">
-    
-    <div class="title center-align">
-        <i class="fa fa-music"></i>&nbsp;&nbsp;小宇的音乐盒子
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s12">
-            <div id="aplayer" class="music"></div>
-        </div>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script>
-$(function () {
-    new APlayer({
-        container: document.getElementById('aplayer'),
-        fixed: 'false' === 'true',
-        autoplay: 'false' === 'true',
-        theme: '#42b983',
-        loop: 'all',
-        order: 'list',
-        preload: 'auto',
-        volume: Number('0.7'),
-        listFolded: 'false' === 'true',
-        listMaxHeight: '',
-        audio: JSON.parse('[{"name":"时光里的他和他","artist":"茶夏","url":"/medias/music/music1.mp3","cover":"/medias/music/cover1.png"}]')
-    });
-});
-</script>
-                    
-
-                    
-
-                    <div id="recommend-sections" class="recommend">
                         
-
-
-
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="iReport">
+                        
+                        <span class="card-title">iReport</span>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-    
-
-    <!-- 所有文章卡片 -->
-    <article id="articles" class="container articles">
-        <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/07/11/ireport/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="iReport">
-                            
-                            <span class="card-title">iReport</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                初识iReport
-                            
-                        </div>
-                        <div class="publish-info">
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">iReport的使用iReport与JasperReport简介1.1  简介
+JasperReport是报表的引擎部分，界面设计是用iReport
+JasperReport是一个报表制作程序，用户按照它制定的规则编写一个XML文件，然后得</div>
+                    <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-11
                             </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/日常学习/" class="post-category" target="_blank">
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/日常学习/" class="post-category" target="_blank">
                                     日常学习
                                 </a>
-                                
-                                
-                            </span>
-                        </div>
+                            
+                            
+                        </span>
                     </div>
+                </div>
 
+                
+                <div class="card-action article-tags">
                     
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/iReport/" target="_blank">
-                            <span class="chip bg-color">iReport</span>
-                        </a>
-                        
-                    </div>
+                    <a href="/tags/iReport/" target="_blank">
+                        <span class="chip bg-color">iReport</span>
+                    </a>
                     
                 </div>
+                
             </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/07/09/helloworld/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                            
-                            <span class="card-title">Hello World</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/07/09/helloworld/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        
+                        <span class="card-title">Hello World</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">
 Welcome to my BLOG
-
-                            
-                        </div>
-                        <div class="publish-info">
+</div>
+                    <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-09
                             </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                小宇
-                                
-                            </span>
-                        </div>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            小宇
+                            
+                        </span>
                     </div>
-
+                </div>
+                
+                <div class="card-action article-tags">
                     
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Hello-world/" target="_blank">
-                            <span class="chip bg-color">Hello world</span>
-                        </a>
-                        
-                    </div>
+                    <a href="/tags/Hello-world/" target="_blank">
+                        <span class="chip bg-color">Hello world</span>
+                    </a>
                     
                 </div>
+                
             </div>
-            
         </div>
-    </article>
+        
+    </div>
+</article>
+</div>
+
+
+    
 
 </main>
-
 
 
 <footer class="page-footer bg-color">

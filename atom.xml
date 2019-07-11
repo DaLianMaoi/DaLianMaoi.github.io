@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dalianmaoi.github.io/"/>
-  <updated>2019-07-11T06:27:49.724Z</updated>
+  <updated>2019-07-11T08:23:55.694Z</updated>
   <id>http://dalianmaoi.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iReport</title>
+    <link href="http://dalianmaoi.github.io/2019/07/11/ireport/"/>
+    <id>http://dalianmaoi.github.io/2019/07/11/ireport/</id>
+    <published>2019-07-11T07:36:48.000Z</published>
+    <updated>2019-07-11T08:23:55.694Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;iReport的使用&quot;&gt;&lt;a href=&quot;#iReport的使用&quot; class=&quot;headerlink&quot; title=&quot;iReport的使用&quot;&gt;&lt;/a&gt;iReport的使用&lt;/h3&gt;&lt;h4 id=&quot;iReport与JasperReport简介&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="日常学习" scheme="http://dalianmaoi.github.io/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="iReport" scheme="http://dalianmaoi.github.io/tags/iReport/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
